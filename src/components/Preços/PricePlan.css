@@ -1,0 +1,45 @@
+.price-plan{
+width: 100%;
+max-width: 300px;
+padding: 20px;
+border: 2px solid;
+border-radius: 8px;
+background-color: #eef5db;
+text-align: center;
+}
+
+.plan-title{
+    color: purple;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+.plan-price {
+    font-size: 1.2em;
+    margin: 10px 0;
+}  
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .feature {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+
+  .included {
+    color: green;
+  }
+  .not-included {
+    color: red;
+  }
+  
+  @media (max-width: 768px) {
+    .price-plan {
+      max-width: 100%;
+    }
+  }
+  

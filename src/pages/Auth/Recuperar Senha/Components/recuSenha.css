@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    height: 100vh; 
+    background: linear-gradient(161deg, #FE5F55 -0.39%, #C24740 50.2%, #66231F 100.79%);
+  }
+  
+  .imagens1{
+    margin-top: 100px;
+    width: 131vh;
+    height: auto;
+    margin-left: 100px;
+  }
+    .junin{
+ 
+        width: 132vh;
+        margin-left: -150px;
+
+    }
+  
+  .logo {
+    height: auto;
+    width: 70px;
+    margin: 10px;
+  }
+  .conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #EEF5DB;
+  }
+  
+  .tela-login {
+    margin: 0 auto;
+    width: 800px; /* Ajuste a largura conforme necessário */
+    margin-left: -450px;
+  }

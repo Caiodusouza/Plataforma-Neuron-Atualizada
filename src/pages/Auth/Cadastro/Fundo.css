@@ -1,0 +1,32 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+.container {
+    position: relative;
+    width: 96vh;
+    height: 100vh;
+    background: linear-gradient(270deg, #053778 -15.87%, #0F6DE7 106.86%);
+    left: 25vh;
+}
+
+.junin {
+    position: absolute;
+    bottom: -7vh;
+    left: -25vh;
+    right: 170px; 
+    width: 110vh;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 70px;
+    height: auto;
+}
